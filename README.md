@@ -45,7 +45,7 @@ The repository is organized as follows:
 ├── Dockerfile                 # Container configuration
 └── data/
     └── remote_worker_productivity.csv
-
+```
 
 
 
