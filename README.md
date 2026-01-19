@@ -33,15 +33,20 @@ The dataset file should be placed at:
 ## 🗂️ **Project Structure**
 
 The repository is organized as follows:
-├── README.md # Project documentation (this file)
-├── notebook.ipynb # Exploratory data analysis
-├── train.py # Model training script
-├── predict.py # Prediction API
-├── model.bin # Trained model artifact
-├── requirements.txt # Python dependencies
-├── Dockerfile # Container configuration
-└── data/ # Dataset directory
-└── remote_worker_productivity.csv
+## Project Structure
+
+```text
+├── README.md                  # Project documentation (this file)
+├── notebook.ipynb             # Exploratory data analysis
+├── train.py                   # Model training script
+├── predict.py                 # Prediction API
+├── model.bin                  # Trained model artifact
+├── requirements.txt           # Python dependencies
+├── Dockerfile                 # Container configuration
+└── data/
+    └── remote_worker_productivity.csv
+
+
 
 
 ## ⚙️ **Machine Learning Workflow**
