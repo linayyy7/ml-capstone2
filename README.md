@@ -97,7 +97,7 @@ curl -X POST http://localhost:9696/predict \
 Example response:
 
 {  
-  "predicted_productivity_score": 42.7  
+  "predicted_productivity_score": 36.8  
 }
 
 ---
