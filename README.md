@@ -40,7 +40,6 @@ The final model is evaluated once on a held-out test set.
 
 ## 📁 Project Structure
 
-.
 ├── README.md  
 ├── notebook.ipynb  
 ├── train.py  
@@ -75,6 +74,7 @@ http://localhost:9696
 
 ### Make a Prediction Request
 
+```
 curl -X POST http://localhost:9696/predict \
 -H "Content-Type: application/json" \
 -d '{  
@@ -93,7 +93,7 @@ curl -X POST http://localhost:9696/predict \
   "AI_assisted_planning": 1,  
   "real_time_feedback_score": 80  
 }'
-
+```
 Example response:
 
 {  
@@ -104,9 +104,9 @@ Example response:
 
 ## 🐳 Docker Deployment
 
-docker build -t remote-productivity .
+```docker build -t remote-productivity .```
 
-docker run -p 9696:9696 remote-productivity
+```docker run -p 9696:9696 remote-productivity```
 
 The service will be available at:
 
@@ -114,17 +114,6 @@ http://localhost:9696/predict
 
 ---
 
-## 🧪 Health Check
-
-curl http://localhost:9696/health
-
-Expected response:
-
-{  
-  "status": "ok"  
-}
-
----
 
 ## 🛠 Technologies Used
 
